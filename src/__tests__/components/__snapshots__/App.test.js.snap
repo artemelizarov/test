@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot-test App component Renders correct properties 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      },
+      "storeState": Object {
+        "currencies": Array [
+          Object {
+            "code": "EUR",
+            "favorite": false,
+            "name": "Euro",
+            "rate": 100,
+          },
+          Object {
+            "code": "USD",
+            "favorite": false,
+            "name": "United States Dollar",
+            "rate": undefined,
+          },
+        ],
+        "currenciesList": Object {
+          "baseCurrency": "USD",
+          "currenciesRates": Object {
+            "EUR": 100,
+            "USD": 50,
+          },
+          "errorRates": null,
+          "favorites": Array [],
+        },
+        "currencyConverter": Object {
+          "amountFrom": 1,
+          "amountTo": 100,
+          "currencyFrom": "USD",
+          "currencyTo": "EUR",
+          "rate": 100,
+        },
+        "defaultCurrency": "USD",
+      },
+    }
+  }
+>
+  <Connect(App) />
+</ContextProvider>
+`;

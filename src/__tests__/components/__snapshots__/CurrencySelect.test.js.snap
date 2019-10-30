@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot-test CurrencySelect component Renders correct properties 1`] = `
+<div
+  className="CurrencySelect"
+>
+  <label
+    htmlFor="baseCurrency"
+  >
+    Base currency
+  </label>
+  <select
+    name="baseCurrency"
+    onChange={[MockFunction]}
+    value="USD"
+  >
+    <option
+      key="USD"
+      value="USD"
+    >
+      USD - United States dollar
+    </option>
+    <option
+      key="EUR"
+      value="EUR"
+    >
+      EUR - Euro
+    </option>
+  </select>
+</div>
+`;

@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot-test CurrencyConverter component Renders correct properties 1`] = `
+<div
+  className="CurrencyConverter"
+>
+  <h2>
+    Currency converter
+  </h2>
+  <div>
+    <CurrencySelect
+      currencies={
+        Array [
+          Object {
+            "code": "USD",
+            "name": "United States dollar",
+          },
+          Object {
+            "code": "EUR",
+            "name": "Euro",
+          },
+        ]
+      }
+      label="Currency from"
+      name="currencyFrom"
+      onChange={[Function]}
+    />
+    <CurrencySelect
+      currencies={
+        Array [
+          Object {
+            "code": "USD",
+            "name": "United States dollar",
+          },
+          Object {
+            "code": "EUR",
+            "name": "Euro",
+          },
+        ]
+      }
+      label="Currency to"
+      name="currencyTo"
+      onChange={[Function]}
+    />
+  </div>
+  <div>
+    <label>
+      Amount from:
+      <input
+        name="amountFrom"
+        onChange={[Function]}
+        type="number"
+      />
+    </label>
+    <label>
+      Amount to:
+      <input
+        name="amountTo"
+        onChange={[Function]}
+        type="number"
+      />
+    </label>
+  </div>
+</div>
+`;

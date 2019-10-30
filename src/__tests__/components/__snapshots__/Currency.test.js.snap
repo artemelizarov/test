@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot-test Currency component Renders correct properties 1`] = `
+<li
+  className="Currency"
+>
+  <span>
+    USD
+     - 
+    United States dollar
+  </span>
+  <span>
+     
+    55.4
+  </span>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "none",
+        "color": "inherit",
+        "font": "inherit",
+        "outline": "none",
+        "padding": 0,
+      }
+    }
+  >
+    <span>
+      ☆
+    </span>
+  </button>
+</li>
+`;
